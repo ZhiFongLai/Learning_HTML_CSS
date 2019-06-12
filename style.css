@@ -1,0 +1,30 @@
+/* 這是CSS的註解 */
+            /* CSS 選擇器 */
+            /* .Class 選擇器 (前面會加點) */
+            /* 可以選擇多種設定 */
+            .title
+            {
+                color:#008899;
+                font-weight:bold;
+                font-size:24px
+            }
+            .content
+            {
+                color:grey; 
+                border:1px dashed blue; 
+                padding: 10px; 
+                margin-top:10px
+            }
+            .keyword
+            {
+                color: red
+            }
+            .underline
+            {
+                text-decoration: underline;
+            }
+            /* 標籤名稱選擇器 (前面不需要加點) ， 會直接對標籤做設定 */
+            body
+            {
+                background-color: #cccccc;
+            }
